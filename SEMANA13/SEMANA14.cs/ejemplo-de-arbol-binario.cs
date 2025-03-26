@@ -154,11 +154,11 @@ class Program
         };
         
         // Insertar las publicaciones en el árbol binario
-        foreach (var publicacion in catalogo.Keys)
+        foreach (string publicacion in catalogo.Keys)
         {
             tree.Insert(publicacion);
         }
-        
+
         int opcion;
         do
         {
